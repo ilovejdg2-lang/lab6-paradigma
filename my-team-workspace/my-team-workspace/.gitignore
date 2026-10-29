@@ -1,0 +1,42 @@
+# ═══════════════════════════════════════════════════
+# Shared workspace .gitignore
+# ═══════════════════════════════════════════════════
+
+# ── Personal / machine-specific (never shared) ────
+/Machine/
+/temp/
+
+# ── Cloned projects keep their own Git history ────
+# Ignore everything under Repos except the index instructions.
+/Repos/*
+!/Repos/AGENTS.md
+
+# ── Personal knowledge bases (optional: remove a line to share yours) ──
+# To keep your personal KB private, add it here:
+# /Knowledge/YourName-Brain/
+
+# ── Obsidian editor state (notes themselves may be committed) ──
+brain/.obsidian/workspace.json
+brain/.obsidian/workspace-mobile.json
+brain/.obsidian/cache/
+
+# ── OS / editor noise ─────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Node / build artifacts ────────────────────────
+node_modules/
+dist/
+coverage/
+.vercel/
+*.log
+__pycache__/
+*.pyc
+
+# ── Environment secrets (examples may be versioned) ──
+.env
+.env.*
+!.env.example
