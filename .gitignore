@@ -1,0 +1,41 @@
+# ═══════════════════════════════════════════════════
+# lab6-paradigma (repositorio principal Lab 8)
+# ═══════════════════════════════════════════════════
+# El workspace oficial vive en:
+#   my-team-workspace/my-team-workspace/
+# Se versionan brain/, Knowledge/, Skills/, AGENTS.md, reglas y docs.
+# Los clones bajo Repos/ conservan su propio Git y no se incorporan aquí.
+
+# ── Repos clonados (conservar solo el índice de instrucciones) ──
+/my-team-workspace/my-team-workspace/Repos/*
+!/my-team-workspace/my-team-workspace/Repos/AGENTS.md
+
+# ── Carpetas locales del workspace (si existen) ──
+/my-team-workspace/my-team-workspace/Machine/
+/my-team-workspace/my-team-workspace/temp/
+
+# ── Historial Git del workspace anidado (renombrado, no borrado) ──
+# Ver README/brain Gaps: evita embeber un submódulo accidental.
+/my-team-workspace/my-team-workspace/.git.backup-lab8-workspace/
+
+# ── Estado de editor Obsidian (las notas en brain/ sí se versionan) ──
+**/brain/.obsidian/workspace.json
+**/brain/.obsidian/workspace-mobile.json
+**/brain/.obsidian/cache/
+
+# ── Secretos y artefactos generados ──
+node_modules/
+dist/
+coverage/
+.vercel/
+test-results/
+playwright-report/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

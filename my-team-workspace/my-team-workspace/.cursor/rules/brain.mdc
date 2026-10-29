@@ -1,0 +1,12 @@
+---
+description: Load Lab 8 persistent brain every session
+alwaysApply: true
+---
+
+Follow `AGENTS.md` in the workspace root (`my-team-workspace/my-team-workspace/`), including its Brain section, in every session.
+
+At session start read `brain/daily-log/status.md` and today’s `brain/daily-log/YYYY-MM-DD.md` (timezone America/Costa_Rica). Use `brain/INDEX.md` to open only relevant notes. Never store secrets in the brain.
+
+UNA Chat repository: `Repos/lab5-paradigmas/`. Memory from that clone is at `../../brain/`.
+
+Do not install or use rsc-harness for this laboratory (step 3 omitted by scope decision).
